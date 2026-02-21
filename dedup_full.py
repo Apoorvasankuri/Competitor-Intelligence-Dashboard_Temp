@@ -1,4 +1,3 @@
-cat > dedup_full.py << 'ENDOFFILE'
 import os, logging, time, psycopg, pandas as pd, re, requests
 from psycopg.rows import dict_row
 from anthropic import Anthropic
@@ -352,4 +351,3 @@ else:
     logging.info("="*60)
     logging.info("✅ Complete!")
     logging.info("="*60)
-ENDOFFILE
